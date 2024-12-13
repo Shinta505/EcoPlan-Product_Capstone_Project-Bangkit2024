@@ -7,7 +7,7 @@
 
 <div align="center">
   This is a project to fulfill the <a href="https://contributors.bangkit.academy/">Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka</a> Program. <br> <br>
-  <a href="#">Project Brief</a> · <a href="#">EcoPlan Website Link</a> · <a href="#">Video Presentation</a> · <a href="#">Presentation Slide</a> <br>
+  <a href="https://docs.google.com/document/d/1dSUFNTHsdmhguiNQ3LHJkHQ6VtUIQoeal_LjvRUg33w/edit?tab=t.0">Project Brief</a> · <a href="https://docs.google.com/document/d/1l2-pESHdo2yg_AdGSLgEvHAy8FBYYTIw7NIhWUQ9DyI/edit?tab=t.0">EcoPlan Website Link</a> · <a href="https://youtu.be/kBf8GK6YnS4">Video Presentation</a> · <a href="https://www.canva.com/design/DAGZFe4bhb0/z_DYhoM3z3arhYwt5BeNMA/edit?utm_content=DAGZFe4bhb0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Presentation Slide</a> <br>
   &copy C242-PR602 Bangkit Capstone Team 2024
 </div>
 <br>
@@ -19,6 +19,7 @@
     - [Web Development](#web-development)
     - [Machine Learning](#machine-learning)
     - [Cloud Computing](#cloud-computing)
+- [Demo Website](#-demo-website)
 
 ## <a id="-group-members" style="color: inherit; text-decoration: none;">👩‍💻👨‍💻 Group Members</a>
 ### Group ID : C242-PR602
