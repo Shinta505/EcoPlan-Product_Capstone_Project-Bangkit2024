@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoPlan - Your Eco-Friendly Waste Management Solution</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.ico">
+    
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles/main.css">
+    
+    <!-- PWA manifest -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#47663B">
+</head>
+<body>
+    <!-- Root App Container -->
+    <div id="app" class="app">
+        <!-- Navigation Component -->
+        <aside id="sidebar" class="sidebar">
+            <header class="sidebar__header">
+                <span class="logo">EcoPlan</span>
+                <button class="sidebar__toggle" id="toggle-btn">
+                    <i class='bx bx-chevron-right'></i>
+                </button>
+            </header>
+            
+            <nav class="sidebar__nav">
+                <ul>
+                    <li><a href="/dashboard" class="nav-link"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
+                    <li><a href="/profile" class="nav-link"><i class='bx bx-user'></i>Profile</a></li>
+                    <li><a href="/detection" class="nav-link"><i class='bx bx-camera'></i>Waste Detection</a></li>
+                    <li><a href="/videos" class="nav-link"><i class='bx bx-video'></i>Education</a></li>
+                    <li><a href="/rewards" class="nav-link"><i class='bx bx-gift'></i>Rewards</a></li>
+                    <li><a href="#" class="nav-link" id="logout-btn"><i class='bx bx-exit'></i>Logout</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <router-outlet></router-outlet>
+        </main>
+        
+        <!-- Global Components -->
+        <div id="modal-root"></div>
+        <div id="toast-container"></div>
+    </div>
+
+    <!-- Core Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/core/app.js" type="module"></script>
+    <script src="js/core/router.js" type="module"></script>
+    <script src="js/core/store.js" type="module"></script>
+</body>
+</html>
