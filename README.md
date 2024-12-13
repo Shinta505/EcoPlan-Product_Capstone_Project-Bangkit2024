@@ -14,7 +14,7 @@
 
 ## Table of Contents
 - [Group Members](#-group-members)
-- [About EcoPlan](#-about-ecoplan)
+- [About EcoPlan](#%EF%B8%8F-about-ecoplan)
 - [Project Documentation](#-project-documentation)
     - [Web Development](#web-development)
     - [Machine Learning](#machine-learning)
